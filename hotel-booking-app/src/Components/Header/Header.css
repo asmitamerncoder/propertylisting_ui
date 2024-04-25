@@ -1,0 +1,49 @@
+.header-main-container {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.282);
+    z-index: 20;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.search-icon {
+    background-color: #8C52FF;
+    color: white;
+    justify-content: center;
+}
+
+.notification-dot {
+    background-color: #8C52FF
+}
+
+.profile-pic {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header-main-container {
+        position: absolute;
+        padding-right: 20px;
+        background-color: white;
+        font-size: 10px;
+        width: 100%;
+        z-index: 20;
+    }
+
+    .logo-wrapper {
+        display: none;
+
+    }
+
+    .profile-main-wrapper{
+        display: none;
+    }
+}

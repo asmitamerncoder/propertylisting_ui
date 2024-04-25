@@ -1,0 +1,971 @@
+.body-wrapper {
+    overflow-x: hidden;
+}
+
+.card-wrapper {
+    width: 100%;
+    height: 630px;
+    padding: 40px;
+    padding-top: 80px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+
+}
+
+.card_2-3_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+
+}
+
+.card_1 {
+    height: 100%;
+    width: 450px;
+    background-image: url('https://img.goodfon.com/wallpaper/big/f/92/zima-les-sneg-noch-moroz-domik-house-khizhina-rustic-fores-2.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 10px;
+
+
+}
+
+.card_1:hover {
+    height: 103%;
+    width: 470px;
+    box-shadow: 10px 10px 20px gray;
+    transition: transform 0.5s ease;
+}
+
+.card_2 {
+    height: 100%;
+    width: 450px;
+    background-image: url('https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2017/05/18180434/kent-cabin-2-e1495455563365.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.card_2:hover {
+    height: 103%;
+    width: 470px;
+    box-shadow: 10px 10px 20px gray;
+
+}
+
+.card_3 {
+    height: 100%;
+    width: 450px;
+    background-image: url('https://m.media-amazon.com/images/I/61qczS7fvjL._AC_UF1000,1000_QL80_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 10px;
+}
+
+.card_3:hover {
+    height: 103%;
+    width: 470px;
+    box-shadow: 10px 10px 20px gray;
+
+}
+
+.card_4 {
+    height: 100%;
+    width: 450px;
+    background-image: url('https://static-ssl.businessinsider.com/image/55f16991dd0895c7078b471e-1401-1051/fairways_002.jp2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 10px;
+
+}
+
+.card_4:hover {
+    height: 103%;
+    width: 470px;
+    box-shadow: 10px 10px 20px gray;
+
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.card-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.explore-nearby-wrapper {
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.city-cards-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.four-set-cards-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.author-card-main-wrapper {
+    height: 950px;
+    width: 100%;
+    background-color: #F1F5F9;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 20px;
+
+}
+
+.author-card-main-wrapper-title {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.author-card-main-wrapper-text {
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+}
+
+.authors-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.show-me-more-btn {
+    height: 50px;
+    width: 160px;
+    background-color: #FFFFFF;
+    border: 0.5px solid rgba(128, 128, 128, 0.144);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.show-me-more-btn:hover {
+    background-color: #F1F5F9;
+}
+
+.become-host-btn {
+    height: 50px;
+    width: 160px;
+    background-color: #7e22cec1;
+    border: 0.5px solid rgba(128, 128, 128, 0.144);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.show-more-btn-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.become-host-btn:hover {
+    background-color: #9333EA;
+}
+
+.how-it-works-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.bg-line-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 5;
+}
+
+.how-it-work-img-text-wrapper {
+    z-index: 9;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.img-text-wrapper {
+    height: 400px;
+    width: 400px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.how-it-work-img {
+    width: 230px;
+    height: 200px;
+}
+
+.how-it-works-cards-title {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.how-it-works-cards-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.612);
+    padding: 20px;
+
+}
+
+.featured-places-wrapper {
+    height: 1250px;
+    width: 100%;
+    background-color: #F1F5F9;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 130px;
+  
+}
+
+
+.featured-places-main-wrapper-title {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: start;
+    padding-top: 10px;
+}
+
+.featured-places-main-wrapper-text {
+    font-size: 18px;
+    color: gray;
+    text-align: start;
+}
+
+
+.menu-btn-main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    width: 90%;
+
+}
+
+.menu-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.menu-btn {
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.579);
+}
+
+.menu-btn:hover {
+    background-color: #115E59;
+    color: white;
+}
+
+.view-all-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    border: 0.5px solid rgba(128, 128, 128, 0.144);
+}
+
+.view-all-btn:hover {
+    background-color: #F1F5F9;
+    border: 0.5px solid rgba(128, 128, 128, 0.144);
+    padding-right: 10px;
+}
+
+.eight-fp-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.Fp-four-cards-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.show-me-more-btn-main-wrapper {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+    padding-bottom: 40px;
+
+}
+
+.show-me-more-btn-wrapper {
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: #8C52FF;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.newsletter-wrapper {
+    height: 650px;
+    width: 100%;
+    padding: 100px;
+    padding-top: 50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-searchbar-wrapper {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 80px !important;
+    padding-top: 100px;
+}
+
+.nwzletter-title {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.nwzletter-text {
+    font-size: 18px;
+    color: gray;
+    text-align: start;
+}
+
+.span-p-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+
+.span-p-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.bg-span1 {
+    height: 25px;
+    width: 35px;
+    background-color: #DBEAFE;
+    border-radius: 40px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-span2 {
+    height: 25px;
+    width: 35px;
+    background-color: #FEE2E2;
+    border-radius: 40px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-adhere-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.573);
+}
+
+.form {
+    margin-top: 30px;
+}
+
+
+
+.image-wrapper {
+    height: 500px;
+    width: 140%;
+}
+
+
+.img-newsletter {
+    height: 500px;
+    width: 100%;
+
+}
+
+.nwz-letter-search-input {
+    height: 40px;
+    width: 400px;
+    border: 0.5px solid rgba(128, 128, 128, 0.282);
+    border-radius: 20px;
+    padding: 10px;
+    z-index: 5;
+
+}
+
+input:focus {
+    border: 0.5px solid rgba(128, 128, 128, 0.282);
+}
+
+.submit-btn-wrapper {
+    background-color: #8C52FF;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 360px;
+    bottom: 35px;
+    position: relative;
+    padding: 3px;
+}
+
+.submit-btn {
+    position: relative;
+    left: 355px;
+    bottom: 58px;
+    z-index: 10;
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .card-wrapper {
+        width: 100%;
+        height: max-content;
+        padding: 20px;
+        padding-top: 40px !important;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .card_2-3_wrapper {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .card_1 {
+        height: 200px;
+        width: 100%;
+        background-image: url('https://img.goodfon.com/wallpaper/big/f/92/zima-les-sneg-noch-moroz-domik-house-khizhina-rustic-fores-2.jpg');
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.5s ease;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+
+    }
+
+    .card_2 {
+        height: 200px;
+        width: 100%;
+        background-image: url('https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2017/05/18180434/kent-cabin-2-e1495455563365.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+        margin-bottom: 10px;
+
+    }
+
+    .card_3 {
+        height: 200px;
+        width: 100%;
+        background-image: url('https://m.media-amazon.com/images/I/61qczS7fvjL._AC_UF1000,1000_QL80_.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+
+    }
+
+    .card_4 {
+        height: 200px;
+        width: 100%;
+        background-image: url('https://static-ssl.businessinsider.com/image/55f16991dd0895c7078b471e-1401-1051/fairways_002.jp2');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+
+    }
+
+    .explore-nearby-wrapper {
+        height: max-content;
+        width: 100%;
+
+    }
+
+    .city-cards-main-wrapper {
+        padding: 20px;
+    }
+
+    .four-set-cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .author-card-main-wrapper {
+        display: none;
+    }
+
+    .how-it-work-img-text-wrapper {
+        z-index: 9;
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+    }
+
+    .menu-btn-main-wrapper {
+        display: none;
+    }
+
+
+    .Fp-four-cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .show-me-more-btn-main-wrapper {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-right: 20px;
+        padding-top: 30px;
+
+    }
+
+    .show-me-more-btn-wrapper {
+        height: 40px;
+        width: 150px;
+        border-radius: 40px;
+        background-color: #8C52FF;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-wrapper {
+        display: none;
+        width: 0%;
+    }
+
+    .text-searchbar-wrapper {
+        height: max-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-left: 5px !important;
+        padding-top: 50px;
+    }
+
+    .nwzletter-title {
+        font-size: 30px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+
+    .nwz-letter-search-input {
+        height: 40px;
+        width: 100%;
+        border: 0.5px solid rgba(128, 128, 128, 0.282);
+        border-radius: 20px;
+        z-index: 5;
+
+    }
+
+    .span-p-main-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 30px;
+    }
+
+    .newsletter-wrapper {
+        height: max-content;
+        width: 100%;
+        padding-top: 50px !important;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .submit-btn-wrapper {
+        background-color: #8C52FF;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        left: 140px;
+        bottom: 34px;
+        position: relative;
+        padding: 3px;
+    }
+
+    .submit-btn {
+        position: relative;
+        left: 133px;
+        bottom: 55px;
+        z-index: 10;
+
+    }
+
+    .bg-span1 {
+        height: 30px;
+        width: 30px;
+        background-color: #DBEAFE;
+        border-radius: 30px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .bg-span2 {
+        height: 30px;
+        width: 30px;
+        background-color: #FEE2E2;
+        border-radius: 30px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .span-adhere-text {
+        font-size: 15px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.573);
+    }
+
+
+    .body-wrapper {
+        overflow-x: hidden;
+    }
+
+
+    .featured-places-wrapper {
+        height: max-content;
+        width: 100%;
+        background-color: #F1F5F9;
+        border-radius: 20px;
+        padding: 20px;
+        padding-top: 50px;
+        padding-left: 40px;
+
+    }
+
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    .property-listing-wrapper {
+        display: none;
+    }
+
+
+    .card-wrapper {
+        width: 100%;
+        height: max-content;
+        padding: 20px;
+        padding-top: 40px !important;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .card_2-3_wrapper {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .card_1 {
+        height: 350px;
+        width: 100%;
+        background-image: url('https://img.goodfon.com/wallpaper/big/f/92/zima-les-sneg-noch-moroz-domik-house-khizhina-rustic-fores-2.jpg');
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.5s ease;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+
+    }
+
+    .card_2 {
+        height: 350px;
+        width: 100%;
+        background-image: url('https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2017/05/18180434/kent-cabin-2-e1495455563365.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+        margin-bottom: 10px;
+
+    }
+
+    .card_3 {
+        height: 350px;
+        width: 100%;
+        background-image: url('https://m.media-amazon.com/images/I/61qczS7fvjL._AC_UF1000,1000_QL80_.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+
+    }
+
+    .card_4 {
+        height: 350px;
+        width: 100%;
+        background-image: url('https://static-ssl.businessinsider.com/image/55f16991dd0895c7078b471e-1401-1051/fairways_002.jp2');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+
+    }
+
+    .explore-nearby-wrapper {
+        height: max-content;
+        width: 100%;
+
+    }
+
+    .city-cards-main-wrapper {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .four-set-cards-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .author-card-main-wrapper {
+        display: none;
+    }
+
+    .how-it-work-img-text-wrapper {
+        z-index: 9;
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        gap: 10px;
+
+    }
+
+
+    .featured-places-wrapper {
+        height: max-content;
+        width: 100%;
+        background-color: #F1F5F9;
+        border-radius: 20px;
+        padding-top: 50px;
+        padding-left: 100px;
+
+    }
+
+    .newsletter-wrapper {
+        height: max-content;
+        width: 100%;
+        padding-top: 50px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .view-all-btn {
+        display: none;
+    }
+
+
+    .image-wrapper {
+        height: max-content;
+        width: 100%;
+    }
+
+
+    .img-newsletter {
+        height: 350px;
+        width: 100%;
+
+    }
+
+
+    .text-searchbar-wrapper {
+        height: max-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-left: 80px !important;
+        padding-top: 100px;
+    }
+
+
+}

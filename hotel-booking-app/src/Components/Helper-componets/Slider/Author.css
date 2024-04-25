@@ -1,0 +1,74 @@
+.author-card-wrapper {
+    height: 280px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.author-card-wrapper:hover {
+    
+    box-shadow:8px 5px 25px rgba(128, 128, 128, 0.316) ;
+
+}
+
+.bg-pic-cards {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 160px;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/4064835/pexels-photo-4064835.jpeg?auto=compress&cs=tinysrgb&w=500');
+    background-size: cover;
+    padding: 10px;
+}
+
+.text-arrow-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.author-pic-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-circle-wrapper {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.author-pic{
+    height: 60px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.author-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.author-job{
+    color: rgba(0, 0, 0, 0.516);
+    padding-bottom: 10px;
+}

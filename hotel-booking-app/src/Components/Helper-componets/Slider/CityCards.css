@@ -1,0 +1,72 @@
+.city-cards-wrapper {
+    width: 280px;
+    height: 150px;
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 0.5px solid rgba(128, 128, 128, 0.144);
+
+}
+
+.city-cards-wrapper:hover {
+    width: 280px;
+    height: 150px;
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow:8px 5px 25px rgba(128, 128, 128, 0.316) ;
+
+}
+
+.counter-main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.prop-count-wrapper {
+    width: 50px;
+    height: 20px;
+    background-color: #F3F4F6;
+    border-radius: 10px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+.pic-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.card-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.cards-title {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.city-card-text {
+    color: rgba(0, 0, 0, 0.508);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+

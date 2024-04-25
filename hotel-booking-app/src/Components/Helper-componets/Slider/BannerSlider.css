@@ -1,0 +1,78 @@
+.slider-wrapper {
+    max-width: 100%;
+    height:770px;
+    padding: 40px;
+    padding-bottom: 200px !important;
+    padding-top: 0px !important;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url('https://res.cloudinary.com/dobhwtwgx/image/upload/v1713690651/traveller_-resized_urlsj4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.banner-title{
+    font-size: 25px;
+    font-weight: 700;
+    }
+
+.banner-title-bold{
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 90px;
+    padding: 30px;
+}
+
+.banner-btn{
+    height: 60px;
+    width: 250px;
+    background-color:#8C52FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .slider-wrapper {
+        height:670px;         
+        max-width: 100%;        
+        background-size:cover; 
+        background-position: center; 
+       
+    }
+
+    .banner-title{
+        padding-top: 60px;
+    font-size: 15px;
+    font-weight: 600;
+;
+    }
+
+.banner-title-bold{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    padding: 20px;
+}
+
+.banner-btn{
+    height: 40px;
+    width:180px;
+    background-color:#8C52FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+}
+

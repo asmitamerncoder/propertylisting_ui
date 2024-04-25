@@ -1,0 +1,90 @@
+.fP-card-main-wrapper {
+    height: 420px;
+    width: 300px;
+    background-color: white;    
+    border-radius: 10px;
+    
+}
+
+.fP-card-main-wrapper:hover{
+    box-shadow:10px 10px 25px rgba(128, 128, 128, 0.316) ;
+}
+
+.fP-text-wrapper {
+    padding: 20px;
+}
+
+.p-text-bedsCount {
+    color: #99A3B3;
+}
+
+.ads-text-wrapper {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.ads-bg {
+    height: 25px;
+    width: 45px;
+    border-radius: 20px;
+    background-color: #DCFCE7;
+    color: #2C7648;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FP-cards-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.location-text-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    color: #7B899C;
+}
+
+.location-star-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+.starvisual {
+    margin-right: 5px;
+}
+
+.pernight-wrapper {
+    display: flex;
+    padding-bottom: 3px;
+}
+
+.price-text {
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 4px;
+}
+
+.text-star{
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 4px;
+}
+
+.plain-text{
+    font-size: 15px;
+    font-weight: 400;
+    color:  #7B899C;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+}
